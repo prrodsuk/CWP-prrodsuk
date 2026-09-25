@@ -1,1 +1,13 @@
+def main():
+    board = """\
+......
+...B..
+..K...
+...R..
+.R....
+......
+"""
+    checkmate(board)
 
+if __name__ == "__main__":
+    main()
