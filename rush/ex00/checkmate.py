@@ -41,7 +41,7 @@ def checkmate(board_str):
             print("Success")
             return
 
-        if piece == 'P' and steps == 1:
+        if piece == 'P' and steps == 1 and dr > 0:
             print("Success")
             return
     print("Fail")
