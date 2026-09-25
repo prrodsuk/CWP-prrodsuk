@@ -23,7 +23,7 @@ def checkmate(board_str):
         steps = 1 
         while 0 <= r < size and 0 <= c < size:
             if rows[r][c] != '.':
-                return rows[r][c], steps # ถ้าเจอหมาก ให้คืนค่า "ชื่อหมาก" และ "ระยะห่าง" กลับไป
+                return rows[r][c], steps
             r += dr
             c += dc
             steps += 1
